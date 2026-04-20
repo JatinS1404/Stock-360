@@ -1,0 +1,89 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    color: white;
+
+    background: linear-gradient(135deg, #141e30, #243b55);  /
+}
+
+/* gradient will be set by JS */
+
+.search-box {
+    position: relative;
+    display: inline-block;
+}
+
+input {
+    padding: 12px;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background: white;
+    color: black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+input::placeholder {
+    color: #666;
+}
+
+#suggestions {
+    position: absolute;
+    background: white;
+    color: black;
+    width: 100%;
+    max-height: 150px;
+    overflow-y: auto;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#suggestions div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#suggestions div:hover {
+    background: #ddd;
+}
+
+button {
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 10px;
+    background: #00c853;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#price {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#change, #change7 {
+    font-size: 18px;
+    margin: 5px;
+}
+
+canvas {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.stock {
+    color: #00c853;
+}
+
+.num {
+    color: #ff5252;
+}
